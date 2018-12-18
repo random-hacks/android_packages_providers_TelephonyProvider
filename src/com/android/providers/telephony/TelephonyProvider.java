@@ -981,7 +981,7 @@ public class TelephonyProvider extends ContentProvider
                 }
                 oldVersion = 23 << 16 | 6;
             }
-            // In Lineage 14.1, we changed the version to 24 so the AOSP version 24 upgrade was skipped
+            // In mkn-mr1, we changed the version to 24 so the AOSP version 24 upgrade was skipped
             if (oldVersion < (27 << 16 | 6)) {
                 Cursor c = null;
                 String[] proj = {"_id"};
