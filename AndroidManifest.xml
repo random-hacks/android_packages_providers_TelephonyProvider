@@ -117,8 +117,8 @@
                   android:exported="true"
                   android:singleUser="true"
                   android:multiprocess="false"
-                  android:readPermission="mokee.permission.READ_PHONE_LOCATION"
-                  android:writePermission="mokee.permission.WRITE_PHONE_LOCATION" />
+                  android:readPermission="lineage.permission.READ_PHONE_LOCATION"
+                  android:writePermission="lineage.permission.WRITE_PHONE_LOCATION" />
 
         <service
             android:name=".TelephonyBackupAgent$DeferredSmsMmsRestoreService"
