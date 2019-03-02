@@ -116,9 +116,7 @@
                   android:authorities="phonelocation"
                   android:exported="true"
                   android:singleUser="true"
-                  android:multiprocess="false"
-                  android:readPermission="lineageos.permission.READ_PHONE_LOCATION"
-                  android:writePermission="lineageos.permission.WRITE_PHONE_LOCATION" />
+                  android:multiprocess="false" />
 
         <service
             android:name=".TelephonyBackupAgent$DeferredSmsMmsRestoreService"
